@@ -4,7 +4,7 @@ import Ingredient from '../Ingredients/Ingredient'
 var IngredientList = (props) => {
     return(
         <div className="component ingredientList">
-            IngredientList chance
+            IngredientList
             {props.ingredients.map((ingredient,idx) => {
                 return(
                     <div key={idx} className="component">
